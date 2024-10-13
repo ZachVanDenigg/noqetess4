@@ -1,15 +1,15 @@
-# from flask import Flask, render_template, request
+from flask import Flask, render_template, request
 
-# # Create a flask app
-# app = Flask(
-#   __name__,
-#   template_folder='templates',
-#   static_folder='static'
-# )
+# Create a flask app
+app = Flask(
+  __name__,
+  template_folder='templates',
+  static_folder='static'
+)
 
-# @app.get('/')
-# def index():
-#   return render_template('index.html')
+@app.get('/')
+def index():
+  return render_template('index.html')
 
 # @app.get('/hello')
 # def hello():
