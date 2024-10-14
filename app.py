@@ -17,7 +17,7 @@ def hello():
 
 @app.errorhandler(404)
 def handle_404(e):
-    return '<h1>404</h1><p>File not found!</p><img src="https://httpcats.com/404.jpg" alt="cat in box" width=400>', 404
+    return '<h1>404</h1><p>File not found! szfnoqetess4</p><img src="https://httpcats.com/404.jpg" alt="cat in box" width=400>', 404
 
 
 if __name__ == '__main__':
